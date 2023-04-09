@@ -37,7 +37,7 @@ public class SpringConfig {
 					"&allowPublicKeyRetrieval=true" +
 					"&useSSL=false");
 		dataSource.setUsername("root");
-		dataSource.setPassword("admin");
+		dataSource.setPassword("****");
 		
 		return dataSource;
 	}
